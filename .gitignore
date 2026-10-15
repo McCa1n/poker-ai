@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+poker_data/
+
+# Keep weights, replay databases and local settings out of source control,
+# including when a custom --data-dir is used.
+*.pt
+*.pth
+*.ckpt
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.db
+.env
+.env.*
